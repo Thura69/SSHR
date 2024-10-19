@@ -1,0 +1,22 @@
+{
+    "title":"Education History",
+    "addEducation":"Add Education",
+    "educationDetail":"Education Details",
+    "editEducation":"Edit Education",
+    "instituteName":"Institute Name",
+    "degree":"Degree",
+    "downLoadFile":"Download File",
+    "speciaisation":"Specialisation",
+    "gpa":"GPA",
+    "instituteStartDate":"Institute Start Date",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Education History?",
+    "deleteText": "Are you sure you want to delete education history?",
+    "action": "Actions",
+    "addNew": "Add New",
+    "instituteEndDate":"Institute End Date",
+    "placeHolder": {
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date"}
+}

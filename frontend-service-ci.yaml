@@ -1,0 +1,53 @@
+trigger:
+  branches:
+    include:
+      - develop
+
+pool:
+  name: kubernetes
+
+variables:
+  - group: kubernetes
+  - name: DOCKER_REPOSITORY
+    value: $(AWS_ACCOUNT_ID).dkr.ecr.$(AWS_REGION).amazonaws.com/$(FE_REPOSITORY_NAME)
+  - name: IMAGE_TAG
+    value: '$(Build.SourceVersion)'
+steps:
+- script: |
+    aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin $(AWS_ACCOUNT_ID).dkr.ecr.$(AWS_REGION).amazonaws.com
+  displayName: 'Login to AWS'
+  env:
+    AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
+    AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
+
+- task: Docker@2
+  displayName: Build docker image
+  inputs:
+    repository: $(DOCKER_REPOSITORY)
+    command: buildAndPush
+    Dockerfile: Dockerfile.prod
+    tags: 'v-$(Build.BuildId)'
+- script: |
+    echo "Docker image for frontend-service.yaml has been built and pushed successfully."
+  displayName: Notify Build and Push Success
+- script: |
+    # Set variables
+    REPO_NAME=Smilax-HR/sshr-infra
+    FILE_PATH=frontend-deployment.yaml
+
+    git config --global user.name "AzureDevOps-Pipeline"
+    git config --global user.email "azuredevops@smilaxhr.com"
+
+    git clone https://$(GITHUB_USERNAME):$(GITHUB_TOKEN)@github.com/Smilax-HR/sshr-infra.git
+
+    cd sshr-infra
+
+    sed -i 's+851725180086.dkr.ecr.ap-southeast-1.amazonaws.com/frontend.*+851725180086.dkr.ecr.ap-southeast-1.amazonaws.com/frontend:v-$(Build.BuildId)+g' $FILE_PATH
+
+    git add $FILE_PATH
+    git commit -m "Update frontend-service image tag to v-$(Build.BuildId)"
+    git push origin main
+  displayName: Update Infra EKS Repository
+  env:
+    GITHUB_USERNAME: $(GITHUB_USERNAME)
+    GITHUB_TOKEN: $(GITHUB_TOKEN)

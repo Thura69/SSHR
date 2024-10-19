@@ -1,0 +1,24 @@
+{
+    "title": "Screening Stage by Position",
+    "status": "Status",
+    "name": "Name",
+    "add": "Add Screening Stage by Position",
+    "details": "Screening Stage by Position Details",
+    "position": "Position",
+    "screeningStage": "Screening Stage",
+    "load": "Load",
+    "actions": "Actions",
+    "necessary": "Please select the necessary information about screening stage before proceeding.",
+    "active": "Active",
+    "save": "Save",
+    "close": "Close",
+    "deleteTitle": "Delete Screening Stage by position?",
+    "deleteText": "Do you want to delete this record permanently?",
+    "requiredFields": "*Please fill in the required field to continue.",
+    "cancel": "Cancel",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select": "Select",
+        "selectDate": "Select Date"
+    }
+}

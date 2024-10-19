@@ -1,0 +1,34 @@
+{
+    "title": "Code Generator",
+    "modalTitle": "Code Generator Entry",
+    "newEntry": "Code Generator Entry",
+    "editRecord": "Code Generator Edit",
+    "subTitle": "Prefix List",
+    "positionType": "Type",
+    "employeeStatus": "Employment Status",
+    "type": "Type",
+    "status": "Status",
+    "sequence": "Sequence",
+    "serialNo": "Serial No.",
+    "prefix": "Prefix",
+    "format": "Format",
+    "remark": "Remark",
+    "generateNewCode": "Generate New Code",
+    "action": "Action",
+    "save": "Save",
+    "cancel": "Cancel",
+    "update": "Update",
+    "edit": "Edit",
+    "delete": "Delete",
+    "addNew": "Add New",
+    "deleteTitle": "Delete Code Generator",
+    "deleteText": "Do you want to delete this record permanently?",
+    "modal": {
+        "placeHolder": {
+            "from": "From",
+            "to": "To",
+            "select": "Select",
+            "search": "Search"
+        }
+    }
+}

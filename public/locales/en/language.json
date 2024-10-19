@@ -1,0 +1,27 @@
+{
+    "title":"Language",
+    "addLanguage":"Add Language",
+    "languageDetails":"Language Details",
+    "editLanguage":"Edit Language",
+    "language":"Language",
+    "speaking":"Speaking",
+    "reading":"Reading",
+    "writing":"Writing",
+    "listening":"Listening",
+    "remarks":"Remarks",
+    "action":"Actions",
+    "addNew":"Add New",
+    "close":"Close", 
+    "search":"Search",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Language?",
+    "deleteText": "Do you want to delete this record permanently?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select":"Select",
+        "selectDate": "Select Date"
+    }
+
+
+
+}

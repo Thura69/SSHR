@@ -1,0 +1,12 @@
+.setting-data-table td:last-child,
+.setting-data-table th:last-child {
+    @apply sticky shadow-black  bg-inherit  right-0 drop-shadow-md w-[80px];
+}
+
+.setting-data-table th:last-child {
+    @apply  bg-zinc-50  w-[80px];
+}
+
+.setting-data-table td:last-child {
+    @apply  w-[80px];
+}

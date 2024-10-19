@@ -1,0 +1,21 @@
+{
+    "title":"Biometric",
+    "addBiometric":"Add Biometric",
+    "editBiometric":"Edit Biometric",
+    "biometricDetail":"Biometric Details",
+    "terminal":"Terminal",
+    "taNumber":"TA Number",
+    "terminalNumber":"Terminal Number",
+    "action":"Actions",
+    "addNew": "Add New",
+    "select":"Select",
+    "search":"Search",
+    "close":"Close",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Biometric?",
+    "deleteText": "Do you want to delete this record permanently?",
+    "placeHolder": {
+        "typeHere": "Type Here"
+    }
+
+}

@@ -1,0 +1,13 @@
+.setting-data-table td:last-child,
+.setting-data-table th:last-child {
+    @apply sticky right-[-1px] w-[70px];
+}
+
+.setting-data-table th:last-child {
+    @apply bg-zinc-50 w-[70px];
+}
+
+.setting-data-table td:last-child {
+    @apply bg-inherit w-[70px];
+}
+

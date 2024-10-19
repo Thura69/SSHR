@@ -1,0 +1,26 @@
+{
+    "title": "Award",
+    "addAward": "Add Award",
+    "awardDetails": "Award Details",
+    "awardEdit": "Award Edit",
+    "department": "Department",
+    "position": "Position",
+    "date": "Date",
+    "nameOfaward": "Name of Award",
+    "detailsOfAward": "Details of Award",
+    "occasion": "Occasion",
+    "select": "Select",
+    "save": "Save",
+    "cancel": "Cancel",
+    "addNew": "Add New",
+    "requiredFields": "*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Job History?",
+    "deleteText": "Do you want to delete this job history?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "type": "Type",
+        "contractPeriod": "Contract Period",
+        "selectDate": "Select Date"
+    },
+    "close": "Close"
+}

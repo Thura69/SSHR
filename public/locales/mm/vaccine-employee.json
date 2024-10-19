@@ -1,0 +1,30 @@
+{
+    "title":"Vaccine",
+    "addVaccine":"Add Vaccine",
+    "vaccineDetail":"Vaccine Details",
+    "editVaccine":"Edit Vaccine",
+    "department":"Department",
+    "position":"Position",
+    "date":"Date",
+    "nameofAward":"Name of Award",
+    "detailofAward":"Detail of Award",
+    "occasion":"Occasion",
+    "vaccineType":"Vaccine Type",
+    "doseAdministrationDate":"Dose Administration Date",
+    "vaccineDose":"Vaccine Dose",
+    "vacinationStatus":"Vaccination Status",
+    "proofofVaccination":"Proof of Vaccination Provided",
+    "yes":"Yes",
+    "no":"No",
+    "action":"Actions",
+    "addNew":"Add New",
+    "close":"Close", 
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Career?",
+    "deleteText": "Do you want to delete this record permanently?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select":"Select",
+        "selectDate": "Select Date"
+    }
+}

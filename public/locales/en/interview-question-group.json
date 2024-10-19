@@ -1,0 +1,37 @@
+{
+    "title":"Interview Question Group",
+    "add":"Add Interview Question Group",
+    "detail":"Interview Question Group Details",
+    "edit":"Edit Interview Question Group",
+    "position":"Position",
+    "screeningStage":"Screening Stage",
+    "questionCount":"Question Count",
+    "questions":"Questions",
+    "status":"Status",
+    "select":"Select",
+    "action":"Actions",
+    "addNew":"Add New",
+    "description":"Description",
+    "close":"Close", 
+    "active":"Active",
+    "category":"Category",
+    "answerType":"Answer Type",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Interview Question Group?",
+    "deleteText": "Do you want to delete this record permanently?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select":"Select",
+        "selectDate": "Select Date"
+    },
+    "modal": {
+        "placeHolder": {
+            "from": "From",
+            "to": "To",
+            "select": "Select",
+            "search": "Search"
+        }
+    }
+
+                               
+}

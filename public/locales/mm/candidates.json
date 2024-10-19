@@ -1,0 +1,12 @@
+{
+    "title":"Candidates",
+    "codeNo":"Code No.",
+    "candidateName":"Candidate Name",
+    "jobTitle":"Job Title",
+    "internalExternal":"Internal / External",
+    "screeningStage":"Screening Stage",
+    "rating":"Rating",
+    "status":"Status",
+    "action":"Actions",
+    "addNew":"Add New"
+}

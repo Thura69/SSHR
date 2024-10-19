@@ -1,0 +1,31 @@
+{
+    "title": "Vaccine",
+    "modalTitle": "Vaccine Entry",
+    "modalEdit":"Vaccine Edit",
+    "name": "Name",
+    "vaccine": "Vaccine",
+    "description": "Description",
+    "status": "Status",
+    "action": "Action",
+    "update": "Update",
+    "vaccineType": "Vaccine Type",
+    "vaccineTypeId": "Vaccine Type",
+    "inactive": "Inactive",
+    "addNew": "Add New",
+    "active": "Active",
+    "formActive":"Active",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "clearFilter":"Clear Filters",
+    "deleteTitle": "Delete Vaccine",
+    "deleteText": "Do you want to delete this record permanently?",
+    "modal": {
+        "placeHolder": {
+            "select": "Select",
+            "search": "Search"
+        }
+    },
+    "nameError":"Name must be at most 50 characters."
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Family",
+    "name": "Name",
+    "relationShip": "Relationship",
+    "phoneNo": "Phone No",
+    "taxExemption": "Tax Exemption",
+    "liveWithParents": "Live with Parents",
+    "action": "Actions",
+    "addNew": "Add New",
+    "pleaseProvide": "Please provide the necessary information about your family before proceeding.",
+    "addFamily": "Add Family",
+    "dateOfBirth": "Date Of Birth",
+    "NRC": "NRC",
+    "passportPermit": "Passport Permit",
+    "passportIdNumber": "Passport ID Number",
+    "issueDate": "Issue Date",
+    "passportExpieryDate": "Passport Expirey Date",
+    "stayPermit": "Stay Permit",
+    "visaValidity": "Visa Validity",
+    "occupation": "Occupation",
+    "transferInsurance": "Transfer Insurance",
+    "liveWithParent": "Live with Parents/ in laws",
+    "yes": "Yes",
+    "no": "No",
+    "placeHolder": {
+        "firstName": "First Name",
+        "middleName": "Middle Name",
+        "lastName": "Last Name",
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date"
+    }
+}

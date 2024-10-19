@@ -1,0 +1,12 @@
+{
+    "title":"Summary",
+    "subTitle":"Employee Information",
+    "martialStatus":"Martial Status",
+    "gender":"Gender",
+    "dateOfBirth":"Date of Birth",
+    "department":"Department",
+    "section":"Section",
+    "joinDate":"Join Date",
+    "userResearch":"User Research",
+    "currentStatus":"Current Status"
+}

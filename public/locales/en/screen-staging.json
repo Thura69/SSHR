@@ -1,0 +1,29 @@
+{
+    "title":"Screening Stage",
+    "add":"Add Screening Stage",
+    "detail":"Screening Stage Details",
+    "edit":"Edit Screening Stage",
+    "addSub":"Add Screening Status",
+    "editSub":"Edit Screening Status",
+    "stageName":"Stage Name",
+    "color":"Color",
+    "active":"Active",
+    "addNew":"Add New",
+    "name":"Name",
+    "description":"Description",
+    "isWritten":"Written Assessment?",
+    "action": "Actions",
+    "deleteTitle": "Delete Screening Stage?",
+    "deleteSub":"Delete Screening Status",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteText": "Do you want to delete this record permanently?",
+    "close":"Close",
+    "yes":"Yes",
+    "no":"No",
+    "placeholder": {
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date"}
+    
+
+}

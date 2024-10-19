@@ -1,0 +1,32 @@
+{
+    "title":"Interview Evaluation",
+    "vacancy":"Vacancy Code",
+    "jobTitle":"Job Title",
+    "candidateNo":"Candidate No",
+    "interviewType":"Interview Type",
+    "screeningType":"Screening Stage",
+    "hiringManager":"Hiring Manager",
+    "rating":"Rating",
+    "nextScreeningStage":"Next Screening Stage",
+    "modal": {
+        "placeHolder": {
+            "from": "From",
+            "to": "To",
+            "select": "Select",
+            "search": "Search"
+        },
+        "sameWith": "Same with calendar year"
+    },
+    "clearFilter":"Clear filters",
+    "yes":"Yes",
+    "no":"No",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select":"Select",
+        "selectDate": "Select Date",
+        "search":"Search",
+        "firstName":"First Name",
+        "middleName":"Middle Name",
+        "lastName":"Last Name"
+    }
+}

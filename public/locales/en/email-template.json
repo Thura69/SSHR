@@ -1,0 +1,32 @@
+{
+    "title":"Email Template",
+    "add":"Add Email Template",
+    "detail":"Email Template Details",
+    "edit":"Edit Email Template",
+    "templateName":"Template Name",
+    "templateType":"Template Type",
+    "recruitment":"Recruitment",
+    "emailTemplate":"Email Template",
+    "addEmailTemplate":"Add Email Template",
+    "search":"Search",
+    "select":"Select",
+    "status":"Status",
+    "close":"Close",
+    "action":"Actions",
+    "addNew":"Add New",
+    "emailSubject":"Email Subject",
+    "addPlaceholder":"Add Placeholder",
+    "emailMessage":"Email Message",
+    "active":"Active",
+    "save":"Save",
+    "cancel":"Cancel",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Email Template?",
+    "deleteText": "Do you want to delete this record permanently?", 
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select":"Select",
+        "selectDate": "Select Date",
+        "search":"Search"
+    }
+}

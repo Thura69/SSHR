@@ -1,0 +1,17 @@
+{
+    "title":"Screening Stage",
+    "add":"Add Screening Stage",
+    "detail":"Screening Stage Details",
+    "stageName":"Stage Name",
+    "color":"Color",
+    "active":"Active",
+    "addNew":"Add New",
+    "name":"Name",
+    "description":"Description",
+    "isWritten":"Is Written",
+    "action": "Actions",
+    "placeHolder": {
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date"}
+}

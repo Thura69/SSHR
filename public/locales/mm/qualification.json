@@ -1,0 +1,26 @@
+{
+    "title": "Qualification",
+    "add": "Add Qualification",
+    "edit": "Edit Qualification",
+    "detail": "Qualification Details",
+    "level": "Level",
+    "centerName": "Center Name",
+    "location": "Location",
+    "fromDate": "From Date",
+    "toDate": "To Date",
+    "downloadFile": "DownloadFile",
+    "qualification": "Qualification",
+    "instituteStartDate": "Institute Start Date",
+"instituteEndDate": "Institute End Date",
+    "requiredFields": "*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Education History?",
+    "deleteText": "Are you sure you want to delete education history?",
+    "action": "Actions",
+    "addNew": "Add New",
+    "close": "Close",
+    "placeHolder": {
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date"
+    }
+}

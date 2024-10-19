@@ -1,0 +1,33 @@
+{
+    "title": "Job History",
+    "addJobHistory": "Add Job History",
+    "editJobHistory": "Edit Job History",
+    "detailsJobHistory": "Job History Details",
+    "position": "Position",
+    "positionStartDate": "Position Start Date",
+    "positionEndDate": "Position End Date",
+    "department": "Department",
+    "salary": "Salary",
+    "company": "Company",
+    "location": "Location",
+    "branch": "Branch",
+    "section": "Section",
+    "jobGrade": "Job Grade",
+    "typeOfAppointment": "Type of Appointment",
+    "employmentStatus": "Employment Status",
+    "select":"Select",
+    "save": "Save",
+    "cancel": "Cancel",
+    "action": "Actions",
+    "addNew": "Add New",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Job History?",
+    "deleteText": "Do you want to delete this job history?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "type": "Type",
+        "contractPeriod": "Contract Period",
+        "selectDate":"Select Date"
+    },
+    "close": "Close"
+}

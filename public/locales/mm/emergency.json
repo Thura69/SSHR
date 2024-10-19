@@ -1,0 +1,26 @@
+{
+    "title":"Emergency Contact",
+    "name":"Name",
+    "emergencyDetails":"Emergency Contact Details",
+    "editEmergency":"Edit Emergency Contact",
+    "relationShip":"Relationship",
+    "contactNo":"Contact No.",
+    "primaryContact":"Primary Contact",
+    "action": "Actions",
+    "addNew": "Add New",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "NRC": "NRC",
+    "close":"Close",
+    "addEmergency":"Add Emergency Contact",
+    "contactNumber":"Contact Number",
+    "address":"Address",
+    "placeHolder": {
+        "select": "Select",
+        "typeHere": "Type Here",
+        "selectDate": "Select Date",
+        "12/":"12/",
+        "Kamaya":"KAMAYA",
+        "N":"(N)",
+        "123456":"123456"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title":"Skill Set by Position",
+    "add":"Add Skill Set by Position",
+    "edit":"Edit Skill Set by Position",
+    "details":"Skill Set by Position Details",
+    "name":"Name",
+    "noResultFound":"Please select the necessary information about skill sets before proceeding.",
+    "position":"Position",
+    "hardSkill":"Hard Skill",
+    "softSkill":"Soft Skill",
+    "skillSets":"Skill Sets",
+    "mandatory":"Mandatory",
+     
+    "status":"Status",
+    "actions":"Actions",
+    "addNew": "Add New",
+    "active": "Active",
+    "save": "Save",
+    "close": "Close",
+    "deleteTitle": "Delete Skill Set by Position?", 
+    "deleteText": "Do you want to delete this record permanently?",
+    "cancel": "Cancel",
+    "action":"Actions",
+    "selected":"Selected",
+    "search": "Search",
+    "select": "Select",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select": "Select",
+        "selectDate": "Select Date",
+        "search": "Search"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "title":"HR Concern",
+    "addHr":"Add HR Concern",
+    "hrConcernDetails":"HR Concern Details",
+    "hrEdit":"Edit HR Concern",
+    "date":"Date",
+    "note":"Note",
+    "writtenBy":"Written By",
+    "action": "Actions",
+    "select":"Select",
+    "save": "Save",
+    "cancel": "Cancel",
+    "addNew": "Add New",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteTitle": "Delete Job History?",
+    "deleteText": "Do you want to delete this job history?",
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "type": "Type",
+        "contractPeriod": "Contract Period",
+        "selectDate":"Select Date"
+    },
+    "close": "Close"
+    
+}

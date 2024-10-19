@@ -1,0 +1,20 @@
+{
+    "title": "Job Opening",
+    "codeNo": "Code No.",
+    "jobTitle": "Job Title",
+    "noOfPosition": "No. of Position",
+    "positionFill": "Position Filled",
+    "targetHiringDate": "Target Hiring Date",
+    "status": "Status",
+    "modal": {
+        "placeHolder": {
+            "search": "Search"
+        }
+    },
+    "placeHolder": {
+        "typeHere": "Type Here",
+        "select": "Select",
+        "selectDate": "Select Date",
+        "search": "Search"
+    }
+}

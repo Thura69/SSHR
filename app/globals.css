@@ -1,0 +1,449 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #1cbcc8;
+}
+
+/* directives */
+
+/* Targeting an element with a specific class */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #797979;
+}
+
+.label {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.style-module_emptyIcons__Bg-FZ svg {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.style-module_fillIcons__6---A svg {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.ant-color-picker-trigger-text {
+    color: #09090a;
+}
+
+.child-menu
+    .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.child-menu .react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-upload-wrapper
+    .ant-upload-drag
+    .ant-upload-btn {
+    padding: 0;
+}
+
+.with-action-column td:last-child,
+.with-action-column th:last-child {
+    @apply sticky right-[0px] bg-white border-white p-0;
+}
+
+.with-action-column th:last-child {
+    @apply bg-zinc-50 w-[80px];
+}
+
+.with-action-column td:last-child {
+    @apply bg-inherit w-[80px];
+}
+
+.with-action-employee-column td:last-child,
+.with-action-employee-column th:last-child {
+    @apply sticky right-[0px]  m-0 border-[#EEFDFD] p-0;
+}
+
+.with-action-employee-column th:last-child {
+    @apply bg-[#EEFDFD] w-[80px];
+}
+
+.with-action-employee-column td:last-child {
+    @apply bg-inherit w-[80px];
+}
+
+/* //// */
+.with-action-details-col td:last-child,
+.with-action-details-col th:last-child {
+    @apply sticky right-[0px]  m-0 border-[#EEFDFD] p-0;
+}
+
+.with-action-details-col th:last-child {
+    @apply bg-[#EEFDFD] w-[80px];
+}
+
+.with-action-details-col td:last-child {
+    @apply bg-inherit w-[80px] bg-[#F1F5FB] border-[#F1F5FB];
+}
+
+.with-select td:first-child,
+.with-select th:first-child {
+    @apply w-[50px];
+}
+[data-id='135'] {
+    display: none;
+}
+
+.spec-markdown-editor {
+    height: calc(min(min-content, 200px));
+}
+
+.CodeMirror-scroll {
+    min-height: 200px !important;
+}
+
+.figma-text-label {
+    @apply text-[14px] md:text-[14px] text-[#041626];
+}
+
+/* .editor-preview-full h1 {
+    @apply text-[2rem] font-bold
+} 
+
+.editor-preview-full h2 {
+    @apply text-[1.5rem] font-bold
+}
+
+.editor-preview-full h3 {
+    @apply text-[1.17rem] font-bold
+}
+
+.editor-preview-full h4 {
+    @apply text-[1rem]
+}
+
+.editor-preview-full h5 {
+    @apply text-[0.83rem]
+}
+
+.editor-preview-full h6 {
+    @apply text-[0.67rem]
+} */
+
+@media screen and (max-width: 425px) {
+    .CodeMirror-scroll {
+        min-height: 150px !important;
+    }
+}
+
+.editor-toolbar .fullscreen {
+    display: none;
+}
+
+.editor-toolbar .side-by-side {
+    display: none;
+}
+
+.editor-toolbar .image {
+    display: none;
+}
+
+.editor-toolbar .guide {
+    display: none;
+}
+
+.editor-statusbar {
+    display: none;
+}
+
+.setting-data-table td:last-child,
+.setting-data-table th:last-child {
+    --tw-drop-shadow: drop-shadow(0 0px 0px rgb(0 0 0 / 0.07))
+        drop-shadow(0 0px 0px rgb(0 0 0 / 0.06)) !important;
+}
+
+.rdp-vhidden {
+    @apply hidden;
+}
+
+.ant-tree {
+    @apply !mt-0;
+}
+
+.ant-tree .ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.ant-tree:hover
+    .ant-tree-checkbox-checked:hover
+    .ant-tree-checkbox-inner:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.ant-tree .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner:after {
+    background-color: transparent;
+}
+
+.ant-tree
+    .ant-tree-checkbox:not(.ant-tree-checkbox-disabled):hover
+    .ant-tree-checkbox-inner {
+    border-color: var(--primary-color);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.ant-checkbox .ant-wave-target:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.react-horizontal-scrolling-menu--inner-wrapper {
+    align-items: center;
+    height: 100%;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+    height: 100%;
+    align-items: center;
+}
+
+.child-menu .react-horizontal-scrolling-menu--scroll-container {
+    height: 100%;
+}
+
+.tableSkeleton {
+    background-size: 800px 50px;
+}
+
+.tableSkeleton:nth-child(1) {
+    animation: tableSkeleton 2s infinite linear;
+}
+
+.tableSkeleton:nth-child(2) {
+    animation: tableSkeleton 2s 0.5s infinite linear;
+}
+
+.tableSkeleton:nth-child(3) {
+    animation: tableSkeleton 2s 1s infinite linear;
+}
+
+.menuSidebar {
+    animation: menuSideBar 0.4s linear;
+    /* animation-timing-function: cubic-bezier(0.85, 0, 0.65, 0.31); */
+    animation-timing-function: cubic-bezier(0.65, 0, 0.65, 0.31);
+}
+
+.menuSideBarOut {
+    animation: menuSideBarOut 0.3s linear;
+    /* animation-timing-function: cubic-bezier(0.85, 0, 0.65, 0.31); */
+    /* animation-timing-function: cubic-bezier(0.85, 0, 1, 0.74); */
+}
+
+.menuNameIn {
+    animation: menuNameIn 1s linear;
+}
+
+.menuNameOut {
+    animation: menuNameOut 0.5s linear;
+    display: none;
+}
+
+.menuArrayIn {
+    animation: menuArrayIn 0.7s ease-in;
+}
+.menuArrayOut {
+    animation: menuArrayOut 0.3s linear;
+    /* animation-timing-function: cubic-bezier(0.85, 0, 1, 0.74); */
+}
+
+.menuIconRotate {
+    animation: menuIconRotate 0.2s linear;
+}
+.menuIconRotateOut {
+    animation: menuIconRotateOut 0.2s linear;
+}
+
+.Toastify__toast-container {
+    position: fixed;
+    z-index: 200000 !important;
+}
+
+/* loader */
+/* HTML: <div class="loader"></div> */
+.initialPageLoader {
+    width: 60px;
+    aspect-ratio: 1.154;
+    --c: #0000, var(--primary-color) 2deg 59deg, #0000 61deg;
+    --c1: conic-gradient(from 149deg at top, var(--c));
+    --c2: conic-gradient(from -31deg at bottom, var(--c));
+    background:
+        var(--c1) top,
+        var(--c1) bottom right,
+        var(--c2) bottom,
+        var(--c1) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    animation: l37 1s infinite;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--radix-accordion-content-height);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--radix-accordion-content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+
+@keyframes l37 {
+    80%,
+    100% {
+        background-position:
+            bottom right,
+            bottom left,
+            bottom,
+            top;
+    }
+}
+
+@keyframes menuSideBar {
+    0% {
+        width: 87px;
+    }
+    100% {
+        width: 250px;
+    }
+}
+
+@keyframes menuSideBarOut {
+    0% {
+        width: 250px;
+    }
+    100% {
+        width: 87px;
+    }
+}
+
+@keyframes menuNameIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes menuNameOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes menuArrayIn {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+@keyframes menuArrayOut {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes menuIconRotate {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes menuIconRotateOut {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+/* loader */
+
+@keyframes tableSkeleton {
+    0% {
+        background-position: -800px 0px;
+    }
+
+    100% {
+        background-position: 800px 0px;
+    }
+}
+
+.node-rect {
+    stroke: none;
+    stroke-width: 0 !important;
+}
+
+.ql-editor {
+    min-height: 200px;
+}
+
+.quill {
+    --border-radius: 5px;
+}
+
+.ql-toolbar.ql-snow {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.ql-container.ql-snow {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}

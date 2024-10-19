@@ -1,0 +1,28 @@
+{
+    "title":"Skill Sets",
+    "add":"Add Skill",
+    "edit":"Edit Skill",
+    "detail":"Skill Details",
+    "name":"Name",
+    "status":"Status",
+    "skill":"Skill",
+    "type":"Type", 
+    "active":"Active",
+    "actions":"Actions",
+    "description":"Description",
+    "update":"Update", 
+    "hardSkill":"Hard Skill",
+    "softSkill":"Soft Skill",
+    "save":"Save",
+    "cancel":"Cancel",
+    "deleteTitle": "Delete Skill Set?",
+    "addNew": "Add New",
+    "requiredFields":"*Please fill in the required field to continue.",
+    "deleteText": "Do you want to delete this record permanently?",
+    "placeholder": {
+        "typeHere": "Type Here",
+        "type": "Type",
+        "contractPeriod": "Contract Period"
+    },
+       "close": "Close"
+}

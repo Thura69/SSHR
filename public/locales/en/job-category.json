@@ -1,0 +1,21 @@
+{
+    "title": "Job Category",
+    "name": "Name",
+    "description": "Description",
+    "save": "Save",
+    "cancel": "Cancel",
+    "update": "Update",
+    "edit": "Edit",
+    "status": "Status",
+    "newEntry": "Job Category Entry",
+    "editRecord": "Job Category Edit",
+    "delete": "Delete",
+    "addNew": "Add New",
+    "action": "Action",
+    "active": "Active",
+    "inactive": "Inactive",
+    "nameError":"Name must be at most 50 characters.",
+    "deleteTitle": "Delete Job Category",
+    "deleteText": "Do you want to delete this record permanently?",
+    "formActive": "Active"
+}

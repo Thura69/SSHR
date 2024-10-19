@@ -1,0 +1,21 @@
+{
+    "title": "Location",
+    "name": "Name",
+    "description": "Description",
+    "save": "Save",
+    "cancel": "Cancel",
+    "update": "Update",
+    "edit": "Edit",
+    "status": "Status",
+    "newEntry": "Location Entry",
+    "editRecord": "Location Edit",
+    "delete": "Delete",
+    "addNew": "Add New",
+    "action": "Action",
+    "active": "Active",
+    "inactive": "Inactive",
+    "deleteTitle": "Delete Location",
+    "deleteText": "Do you want to delete this record permanently?",
+    "formActive": "Active",
+    "nameError":"Name must be at most 50 characters"
+}

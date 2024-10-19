@@ -1,0 +1,30 @@
+{
+    "title":"Branch",
+    "newEntry":"Branch Setup Entry",
+    "editRecord":"Branch Setup Edit",
+    "name":"Branch Name",
+    "total_employess":"Total Employee",
+    "branch_name":"Branch Name",
+    "action":"Action",
+    "location":"Location",
+    "department":"Department",
+    "description":"Description",
+    "location_address":"Location Address",
+    "save": "Save",
+    "cancel": "Cancel",
+    "status": "Status",
+    "update": "Update",
+    "edit": "Edit",
+    "delete": "Delete",
+    "addNew": "Add New",
+    "clearFilter":"Clear filters",
+    "formActive":"Active",
+    "modal": {
+        "placeHolder": {
+            "from": "From",
+            "to": "To",
+            "select": "Select",
+            "search": "Search"
+        }
+    }
+}
